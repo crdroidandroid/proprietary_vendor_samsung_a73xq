@@ -1852,7 +1852,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/nfc_nci_nxpsn.so"],
-			shared_libs: ["android.hardware.nfc@1.0", "android.hardware.nfc@1.1", "android.hardware.nfc@1.2", "libbase", "libcutils", "libhardware", "libhardware_legacy", "libhidlbase", "liblog", "libutils", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["android.hardware.nfc@1.0", "android.hardware.nfc@1.1", "android.hardware.nfc@1.2", "libbase-v33", "libcutils", "libhardware", "libhardware_legacy", "libhidlbase", "liblog", "libutils", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
